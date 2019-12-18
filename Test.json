@@ -1,0 +1,36 @@
+"reports": 
+[
+    {
+      "title": "Notepad processes", 
+      "timestamp": 1388538906, 
+      "iocs": {
+        "query": [
+          {
+            "index_type": "events",
+            "search_query": "cb.urlver=1&q=process_name%3Anotepad.exe"
+          }
+        ]
+      }, 
+      "score": 50, 
+      "link": "http://www.myfeedserver/feed/report/notepad_proc",
+      
+      "id": "notepad_proc"
+    },
+    {
+      "title": "Newly loaded modules", 
+      "timestamp": 1388570000, 
+      "iocs":
+      {
+        "query": [
+          {
+            "index_type": "modules",
+            "search_query": "cb.urlver=1&q=is_executable_image%3Afalse"
+          }
+        ]
+      }, 
+      "score": 50,
+       
+      "link": "http://www.dxmtest1.org/02",
+      "id": "new_mod_loads"
+    }
+]
