@@ -1,24 +1,10 @@
-  "reports": [
-    {
-      "timestamp": 1380773388,
-      "iocs": {
-        "ipv4": [
-          "100.2.142.8"
-        ]
-      },
-      "link": "https://www.dan.me.uk/tornodes",
-      "id": "TOR-Node-100.2.142.8",
-      "title": "As of Wed Oct  2 20:09:48 2013 GMT, 100.2.142.8 has been a TOR exit for 26 days, 0:44:42. Contact: Adam Langley <xxx@xxxviolet.org>"
-    },
-    {
-      "timestamp": 1380773388,
-      "iocs": {
-        "ipv4": [
-          "100.4.7.69"
-        ]
-      },
-      "link": "https://www.dan.me.uk/tornodes",
-      "id": "TOR-Node-100.4.7.69",
-      "title": "As of Wed Oct  2 20:09:48 2013 GMT, 100.4.7.69 has been a TOR exit for 61 days, 2:07:23. Contact: GPG KeyID: 0x1F40CBDC Jeremy <jeremy@xxxlaw.net>"
-    }
-  ]
+  "feedinfo": {
+    "name": "tor",
+    "display_name": "Tor Exit Nodes",
+    "provider_url": "https://torproject.org/",
+    "summary": "This feed is a list of Tor Node IP addresses, updated every 30 minutes.",
+    "tech_data": "There are no requirements to share any data to receive this feed.",
+    "icon": "tor.png",
+    "icon_small": "tor.small.png",
+    "category": "Open Source"
+   }
