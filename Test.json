@@ -1,36 +1,24 @@
-"reports": 
-[
+  "reports": [
     {
-      "title": "Notepad processes", 
-      "timestamp": 1388538906, 
+      "timestamp": 1380773388,
       "iocs": {
-        "query": [
-          {
-            "index_type": "events",
-            "search_query": "cb.urlver=1&q=process_name%3Anotepad.exe"
-          }
+        "ipv4": [
+          "100.2.142.8"
         ]
-      }, 
-      "score": 50, 
-      "link": "http://www.myfeedserver/feed/report/notepad_proc",
-      
-      "id": "notepad_proc"
+      },
+      "link": "https://www.dan.me.uk/tornodes",
+      "id": "TOR-Node-100.2.142.8",
+      "title": "As of Wed Oct  2 20:09:48 2013 GMT, 100.2.142.8 has been a TOR exit for 26 days, 0:44:42. Contact: Adam Langley <xxx@xxxviolet.org>"
     },
     {
-      "title": "Newly loaded modules", 
-      "timestamp": 1388570000, 
-      "iocs":
-      {
-        "query": [
-          {
-            "index_type": "modules",
-            "search_query": "cb.urlver=1&q=is_executable_image%3Afalse"
-          }
+      "timestamp": 1380773388,
+      "iocs": {
+        "ipv4": [
+          "100.4.7.69"
         ]
-      }, 
-      "score": 50,
-       
-      "link": "http://www.dxmtest1.org/02",
-      "id": "new_mod_loads"
+      },
+      "link": "https://www.dan.me.uk/tornodes",
+      "id": "TOR-Node-100.4.7.69",
+      "title": "As of Wed Oct  2 20:09:48 2013 GMT, 100.4.7.69 has been a TOR exit for 61 days, 2:07:23. Contact: GPG KeyID: 0x1F40CBDC Jeremy <jeremy@xxxlaw.net>"
     }
-]
+  ]
